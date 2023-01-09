@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  ht_docker:
+    ports:
+     - "10511:80"
+    build: .
